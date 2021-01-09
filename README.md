@@ -49,12 +49,36 @@ The original code included nested loops which can increase the time required to 
           Next j      
     Next i
 
-The refractored code I created did not include nested loops and it was faster. It was executed in 0.140 seconds and 0.137 seconds for 2017 and 2018, respectively. 
+The refactored code I created did not include nested loops and it was faster. It was executed in 0.140 seconds and 0.137 seconds for 2017 and 2018, respectively. 
 
 ![VBA_Challenge_2017](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
 ![VBA_Challenge_2018](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
+The refactored code used 4 arrays; tickers, tickerVolumes, tickerStartingPrices and tickerEndingPrices. The tickerIndex variable was used to access an index accorss these 4 arrays. 
+
+    'Initialize array of all tickers
+    Dim tickers(12) As String
+    
+    tickers(0) = "AY"
+    tickers(1) = "CSIQ"
+    tickers(2) = "DQ"
+    tickers(3) = "ENPH"
+    tickers(4) = "FSLR"
+    tickers(5) = "HASI"
+    tickers(6) = "JKS"
+    tickers(7) = "RUN"
+    tickers(8) = "SEDG"
+    tickers(9) = "SPWR"
+    tickers(10) = "TERP"
+    tickers(11) = "VSLR"
+    
+    'Activate data worksheet
+    Worksheets(YearValue).Activate
+    
+    'Get the number of rows to loop over
+    RowCount = Cells(Rows.Count, "A").End(xlUp).Row
+    
     'Create a ticker Index
     Dim tickerIndex As Integer
     tickerIndex = 0
