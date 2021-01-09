@@ -14,7 +14,7 @@ The original code that I created for Steve to analyze the 12 energy stocks took 
 
 ![VBA_Challenge_2018_Original](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2018_Original.png)
 
-The original code included nested for loops which can increase the time required to execute the code. The outer loop is executed 12 times and each time the outer loop executes the inner loop executes 3012 times. As a result there are 12 x 3012 executions in this code. 
+The original code included nested for loops which can increase the time required to run the code. The outer loop is executed 12 times and each time the outer loop executes the inner loop executes 3012 times. As a result there are 12 x 3012 executions in this code. 
     
     'Loop through tickers
     For i = 0 To 11
