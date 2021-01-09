@@ -8,7 +8,7 @@ Refactor code so that it can be executed in a timely manner for Steve to analyze
 ## Results
 Comparing the 12 green energy stocks that Steve wants to look at, it is evident that in 2017 all stocks performed well except for TERP however in 2018 the only stocks that performed well were ENPH and RUN. Based on these results the stock that Steve's parents are interested in, DQ, performed well in 2017 as the price increased 199.4%. However, in 2018 DQ did not perfrom well as the stock price dropped 62.6%. 
 
-The original code that I created for Steve to analyze the 12 energy stocks took 0.773 seconds and 0.843 seconds to execute for the years 2017 and 2018, respectively.
+The original code that I created for Steve to analyze the 12 energy stocks took 0.773 seconds and 0.843 seconds to run for the years 2017 and 2018, respectively.
 
 ![VBA_Challenge_2017_Original](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2017_Original.png)
 
@@ -49,7 +49,7 @@ The original code included nested loops which can increase the time required to 
           Next j      
     Next i
 
-The refactored code I created did not include nested loops and it was faster. It was executed in 0.140 seconds and 0.137 seconds for 2017 and 2018, respectively. 
+The refactored code I created did not include nested loops and it was faster. It ran in 0.140 seconds and 0.137 seconds for 2017 and 2018, respectively. 
 
 ![VBA_Challenge_2017](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
@@ -128,7 +128,7 @@ A disadvantage of refactoring code is that it can be a time-consuming process to
 
 - How do these pros and cons apply to refactoring the original VBA script?
 
-Refactoring the VBA script increased the efficiency as the refactored code is executed faster than the original code. This will allow Steve to analyze the entire stock market more quickly with the refactored code.
+Refactoring the VBA script increased the efficiency as the refactored code ran faster than the original code. This will allow Steve to analyze the entire stock market more quickly with the refactored code. I found that refactoring the code was challenging and there was a lot of trial and error to produce the same end result. The refactored code was 0.63 seconds and 0.70 seconds faster for the years 2017 and 2018, respectively. Personally, I do not think the amount of time I spent to refactor the code is appropriately reflected in this faster execution. However, I only used this code to analyze 12 stocks so perhaps when the same code is used to analyze a greater number of stocks the efficiency of the refactored code will be more applicable. 
 
 
 
