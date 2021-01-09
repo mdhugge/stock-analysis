@@ -14,9 +14,8 @@ The original code that I created for Steve to analyze the 12 energy stocks took 
 
 ![VBA_Challenge_2018_Original](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2018_Original.png)
 
+The original code included nested loops which... time required to execute the code. 
 
-'''
-    
     'Assign Arrays and Indexes
     Dim tickers(12) As String
 
@@ -74,10 +73,13 @@ The original code that I created for Steve to analyze the 12 energy stocks took 
                 End If
                 
         Next j
-    
-'''
 
-'''
+The refractored code did not include nested loops and so it was fasted. It was executed in 0.140 seconds and 0.137 seconds for 2017 and 2018, respectively. 
+
+![VBA_Challenge_2017](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
+
+![VBA_Challenge_2018](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
+
 
     'Initialize array of all tickers
     Dim tickers(12) As String
@@ -152,9 +154,14 @@ The original code that I created for Steve to analyze the 12 energy stocks took 
         
     Next i
 
-'''
+## Summary
+- What are the advantages or disadvantages of refactoring code?
+Advantages 
+Disadvntages
+
+- How do these pros and cons apply to refactoring the original VBA script?
 
 
-![VBA_Challenge_2017](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
-![VBA_Challenge_2018](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
+
+
