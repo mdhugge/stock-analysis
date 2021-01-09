@@ -6,6 +6,14 @@ Steve is a financial advisor, and his parents want his help to invest in green e
 Create a code that can be executed in a timely manner so that Steve can analyze the entire stock market. 
 
 ## Results
-Comparing the 12 green energy stocks that Steve wants to look at, it is evident that in 2017 all stocks performed well except for TERP however in 2018 the only stocks that performed well were ENPH and RUN. Based on these results the stock that Steve's parents are interested in, DQ, performed well in 2017 as the price increased 199.4% However, in 2018 DQ did not perfrom well at the stock price dropped 62.6%. 
+Comparing the 12 green energy stocks that Steve wants to look at, it is evident that in 2017 all stocks performed well except for TERP however in 2018 the only stocks that performed well were ENPH and RUN. Based on these results the stock that Steve's parents are interested in, DQ, performed well in 2017 as the price increased 199.4%. However, in 2018 DQ did not perfrom well as the stock price dropped 62.6%. 
 
-The original script 
+The original code that I created for Steve to analyze the 12 energy stocks took 0.773 seconds and 0.843 seconds to execute for the years 2017 and 2018, respectively.
+
+![VBA_Challenge_2017_Original](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2017_Original.png)
+
+![VBA_Challenge_2018_Original](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2018_Original.png)
+
+![VBA_Challenge_2017](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
+
+![VBA_Challenge_2018](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
