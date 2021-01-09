@@ -10,6 +10,9 @@ Comparing the 12 green energy stocks that Steve wants to look at, it is evident 
 
 The original code that I created for Steve to analyze the 12 energy stocks took 0.773 seconds and 0.843 seconds to execute for the years 2017 and 2018, respectively.
 
+![VBA_Challenge_2017_Original](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2017_Original.png)
+
+![VBA_Challenge_2018_Original](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2018_Original.png)
 
 
 '''
@@ -265,3 +268,6 @@ End Sub
 '''
 
 
+![VBA_Challenge_2017](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
+
+![VBA_Challenge_2018](https://github.com/mdhugge/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
